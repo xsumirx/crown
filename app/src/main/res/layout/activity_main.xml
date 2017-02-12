@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="home.swatcats.com.crownelexideain.MainActivity">
+
+
+
+
+
+
+    <LinearLayout
+        android:elevation="50dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/logo1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:layout_above="@+id/btnSetting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+            </ListView>
+
+            <ImageButton
+                android:background="@color/white"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp"
+                android:id="@+id/btnSetting"
+                android:src="@drawable/setting"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </RelativeLayout>
+
+
+        <ScrollView
+            android:visibility="gone"
+            android:background="#1000"
+            android:id="@+id/containerButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:scrollbars="vertical"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/btnAllOn"
+                    android:text="ALL ON/OFF"
+                    android:textColor="#fff"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+
+                    android:layout_margin="5dp" />
+
+                <Button
+                    android:id="@+id/btnEntry"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorPrimary"
+                    android:text="ENTRY"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btnClubHouse"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorPrimary"
+                    android:text="CLUB HOUSE"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btnLandscape"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorPrimary"
+                    android:text="LANDSCAPE"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btnTerrace"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorPrimary"
+                    android:text="TERRACE"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btnB1"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorPrimary"
+                    android:text="B-1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btnB2"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorPrimary"
+                    android:text="B-2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btnB3"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorPrimary"
+                    android:text="B-3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btnB4"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorPrimary"
+                    android:text="B-4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+                <Button
+                    android:id="@+id/btnPick"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:background="@color/buttonOff"
+                    android:text="PICK"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewAppBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:background="@drawable/main1" />
+
+</LinearLayout>
